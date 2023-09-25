@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Devlinks : Share links with others</title>
+    <meta name="keyword" content="devlinks , social links">
+    <meta name="description" content="Devlinks is how to share links">
+    <link rel="icon" type="image/png" href="">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Link to fontawesome CDN(Content Delivery Network)-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header  class="d-flex space-between menu">
+        <section>
+            <h1>
+                <a href="#">Devlinks</a>
+            </h1>
+        </section>
+        <nav class="visibility">
+            <ul>
+                <li>
+                    <a href="#" class="btn btn-faint">
+                        <i class="fa fa-link"></i>
+                        <span> Links</span>
+                    </a>
+                </li>
+                <li><a href="#">
+                    <i class="fa fa-user-circle"></i>
+                    <span>
+                        Profile Details
+                    </span></a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav d-md-hide">
+            <ul>
+                <li>
+                    <a href="#" class="btn btn-faint">
+                        <i class="fa fa-link"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user-circle"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section class="d-md-hide">
+            <a href="#">
+                <i class="fa fa-eye"></i>
+            </a>
+        </section>
+        <section class="visibility">
+            <a href="preview.html" class="btn btn-bordered">Preview</a>
+        </section>
+    </header>
+    <main class="grid-container flex-column">
+        <aside  class="visibility">
+            <div class="box">
+                <div class="social-icon bg-github">
+                    <a href="#" class="social-link-body">
+                        <div class="d-flex space-between">
+                            <div>
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                                <span class="v-align">Github</span>
+                            </div>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"> </i>
+                        </div>
+                    </a>
+                </div>
+                <div class="social-icon bg-youtube">
+                    <a href="#" class="social-link-body">
+                        <div class="d-flex space-between">
+                            <div>
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span>Youtube</span>
+                            </div>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"> </i>
+                        </div>
+                    </a>
+                </div>
+                <div class="social-icon bg-linkedin">
+                    <a href="#" class="social-link-body">
+                        <div class="d-flex space-between">
+                            <div>
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <span>Linkedin</span>
+                            </div>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"> </i>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </aside>
+        <section class="link-section">
+            <div>
+                <div class="padder">
+                    <div class="mb-2">
+                        <h2>Customize your link</h2>
+                        <p>Add/Edit/remove links below and share your profile with the world</p>
+                        <button type="button" class="btn w-100 btn-bordered bg-white">+ Add Link</button>
+                    </div>
+                    <div class="link-body mb-2 pad-1 relative">
+                        <div class="d-flex space-between">
+                            <p>Link #1</p>
+                            <button type="button" class="btn">Remove</button>
+                        </div>
+                        <label for="platform">Platform</label>
+                        <select class="form-input">
+                            <option value="github">
+                                <i class="fa-brands fa-github" style="color:red"></i>
+                                <span>Github</span>
+                            </option>
+                            <option value="facebbok">
+                                <i class="fa fa-github"></i>
+                                <span>Facebook</span>
+                            </option>
+                            <option value="linkedin">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <span>Linkedin</spance>
+                            </option>
+                        </select>
+                        <label for="link">Link</label>
+                        <div class="d-flex link-box ">
+                            <p class="icon-wrapper">
+                                <i class="fa fa-link"></i>
+                            </p>
+                            <input type="text" class="form-input input">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="relative pad-2">
+                    <button type="submit" class="btn btn-primary relative-btn">Save</button>
+                </div>
+            </div>
+           
+        </section>
+    </main>
+</body>
+</html>
